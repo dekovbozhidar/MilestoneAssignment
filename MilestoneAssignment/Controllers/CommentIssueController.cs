@@ -18,7 +18,7 @@ public class GitHookController : Controller
             {
 
                 HttpClient client = new HttpClient();
-                var token = "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";
+                var token = "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";
 
                 client.DefaultRequestHeaders.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("AppName", "1.0"));
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
